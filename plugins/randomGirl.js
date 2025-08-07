@@ -15,7 +15,7 @@ try{
 let res = await fetchJson(`https://api.agatz.xyz/api/china`)
 let wm = `🧧 Random china image
 
-> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*`
+> *ᴘᴏᴡᴇʀᴅ ʙʏ  THARINDU NIRMALA: )*`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -33,7 +33,7 @@ try{
 let res = await fetchJson(`https://api.agatz.xyz/api/Japan`)
 let wm = `🧧 Random japan image
 
-> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*`
+> *ᴘᴏᴡᴇʀᴅ ʙʏ  THARINDU NIRMALA: )*`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -51,7 +51,7 @@ try{
 let res = await fetchJson(`https://api.agatz.xyz/api/indonesia`)
 let wm = `🧧 Random indonesia image
 
-> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*`
+> *ᴘᴏᴡᴇʀᴅ ʙʏ  THARINDU NIRMALA : )*`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -69,7 +69,7 @@ try{
 let res = await fetchJson(`https://api.agatz.xyz/api/vietnam`)
 let wm = `🧧 Random vietnam image
 
-> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*`
+> *ᴘᴏᴡᴇʀᴅ ʙʏ  THARINDU NIRMALA: )*`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -87,7 +87,7 @@ try{
 let res = await fetchJson(`https://api.agatz.xyz/api/korea`)
 let wm = `🧧 Random korean image
 
-> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*`
+> *ᴘᴏᴡᴇʀᴅ ʙʏ  THARINDU NIRMALA: )*`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -105,7 +105,7 @@ try{
 let res = await fetchJson(`https://api.agatz.xyz/api/malaysia`)
 let wm = `🧧 Random malaysia image
 
-> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*`
+> *ᴘᴏᴡᴇʀᴅ ʙʏ  THARINDU NIRMALA: )*`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -123,7 +123,7 @@ try{
 let res = await fetchJson(`https://api.agatz.xyz/api/thailand`)
 let wm = `🧧 Random thailand image
 
-> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*`
+> *ᴘᴏᴡᴇʀᴅ ʙʏ  THARINDU NIRMALA: )*`
 await conn.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -141,7 +141,7 @@ try{
 let res = await fetchJson(`https://api.agatz.xyz/api/asupan`)
 let wm = `🧧 Random asupan video
 
-> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*`
+> *ᴘᴏᴡᴇʀᴅ ʙʏ  THARINDU NIRMALA )*`
 await conn.sendMessage(from, { video: { url: res.data }, caption: wm, ptv: true }, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -162,7 +162,7 @@ let wm = `🧧 Random gore video
 *Title:* ${res.data.title}
 
 
-> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*`
+> *ᴘᴏᴡᴇʀᴅ ʙʏ  THARINDU NIRMALA: )*`
 await conn.sendMessage(from, { video: { url: res.data.video2 }, caption: wm, ptv: true }, { quoted: mek })
 } catch (e) {
 reply(cants)
