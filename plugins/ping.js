@@ -2,8 +2,8 @@ const config = require('../config');
 const { cmd, commands } = require('../command');
 
 // Bot details
-const botname = "𝙺𝙰𝚅𝙸 𝙼𝙳";
-const ownername = "𝙺𝙰𝚅𝙸𝙳𝚄 𝚁𝙰𝚂𝙰𝙽𝙶𝙰";
+const botname = "NIMA MD";
+const ownername = "THARINDU NIRMALA";
 
 // Quoted object
 const Supunwa = {
@@ -14,7 +14,7 @@ const Supunwa = {
   message: {
     newsletterAdminInviteMessage: {
       newsletterJid: '120363417070951702@newsletter', // your channel jid
-      newsletterName: "MOVIE CIRCLE",
+      newsletterName: "NIMA VIBE MUSIC",
       caption: botname + ` 𝚅𝙴𝚁𝙸𝙵𝙸𝙴𝙳 𝙱𝚈 ` + ownername,
       inviteExpiration: 0
     }
@@ -43,11 +43,11 @@ async (conn, mek, m, { from, quoted, reply }) => {
       forwardingScore: 999,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363417070951702@newsletter', 
-        newsletterName: "KAVIDU ㋡",
+        newsletterName: "NIRMALA ㋡",
         serverMessageId: 999
       },
       externalAdReply: {
-        title: 'KAVI-MD 👨‍💻',
+        title: 'NIMA-MD 👨‍💻',
         body: 'BOT STATUS | ONLINE ㋡',
         thumbnailUrl: "https://files.catbox.moe/2hj8ph.jpg",
         mediaType: 1,
@@ -58,7 +58,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
 
     // Send the ping response
     await conn.sendMessage(from, {
-      text: `*KAVI MD SPEED ➟ ${ping}ms*`,
+      text: `*NIMA MD SPEED ➟ ${ping}ms*`,
       contextInfo
     }, { quoted: Supunwa });
 
