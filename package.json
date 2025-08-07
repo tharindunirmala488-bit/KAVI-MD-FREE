@@ -1,12 +1,12 @@
 {
-  "name": "KAVI-MD",
+  "name": "NIMA-MD",
   "version": "3.0.0",
-  "description": "A WhatsApp Bot Created By KAVIDU RASANGA.",
+  "description": "A WhatsApp Bot Created By THARIND NIRMALA.",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name KAVI-MD",
-    "stop": "pm2 stop KAVI-MD",
-    "restart": "pm2 restart KAVI-MD"
+    "stop": "pm2 stop NIMA-MD",
+    "restart": "pm2 restart NIMA-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.16",
