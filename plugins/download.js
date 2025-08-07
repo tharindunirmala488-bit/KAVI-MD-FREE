@@ -70,7 +70,7 @@ if (!jsonData.status) {
 let tiktokData = jsonData.BK9;
 let captionMessage = `
 
-*╭━━〔👻 TIKTOK DOWNLOADER 👻〕━*
+*╭━━〔🎥 NIMA-MD TIKTOK DOWNLOADER 🎥〕━*
 *┃▸Title: ${tiktokData.description || 'No title'}*
 *╰━━━━━━━━━━━━━━━━━━━━━━*
 *╭────────────────────➤*
@@ -115,7 +115,7 @@ conn.ev.on("messages.upsert", async message => {
       await conn.sendMessage(chatID, {
         'audio': { 'url': tiktokData.audio },
         'mimetype': "audio/mpeg"
-      }, { 'quoted': receivedMessage });
+      }, 🎥{ 'quoted': receivedMessage });
     } else {
       reply("*Invalid selection. Please reply with 1, 2, or 3.*");
     }
@@ -141,7 +141,7 @@ if (!fbData.status) {
   return reply("❌ Error fetching the video. Please try again.");
 }
 
-const caption = `╭━〔👻 *FB DOWNLOADER* 👻〕━\n`
+const caption = `╭━〔👻 * NIMA-MD FB DOWNLOADER* 👻〕━\n`
   + `┃▸ *Title*: ${fbData.BK9.title}\n`
   + `╰━━━━━━━━━\n\n`
   + `🛸 *Download Options:*\n\n`
@@ -246,7 +246,7 @@ if (videos.length === 0) {
 
 const [video1, video2] = videos;
 
-const caption = `╭━━━〔 *TWITTER DOWNLOADER* 〕━━━⊷\n`
+const caption = `╭━━━〔 *💫 NIMA-MD TWITTER DOWNLOADER💫* 〕━━━⊷\n`
   + `┃▸ *Author:* ${data.BK9.authorName} (@${data.BK9.authorUsername})\n`
   + `┃▸ *Likes:* ${data.BK9.likes}\n`
   + `┃▸ *Replies:* ${data.BK9.replies}\n`
@@ -325,7 +325,7 @@ await conn.sendMessage(from, {
   react: { text: "⬆️", key: m.key }
 });
 
-const caption = `╭━━━〔 *MEDIAFIRE DOWNLOADER* 〕━━━⊷\n`
+const caption = `╭━━━〔 * 📁NIMA-MD MEDIAFIRE DOWNLOADER📁* 〕━━━⊷\n`
   + `┃▸ *File Name:* ${file_name}\n`
   + `┃▸ *File Type:* ${filetype || "Unknown"}\n`
   + `┃▸ *File Size:* ${file_size}\n`
@@ -374,7 +374,7 @@ cmd({
     const app = data.datalist.list[0];
     const appSize = (app.size / 1048576).toFixed(2); // Convert bytes to MB
 
-    const caption = `╭━━━〔 *APK Downloader* 〕━━━┈⊷
+    const caption = `╭━━━〔 *❄️ NIMA-MD APK Downloader❄️* 〕━━━┈⊷
 ┃ 📦 *Name:* ${app.name}
 ┃ 🏋 *Size:* ${appSize} MB
 ┃ 📦 *Package:* ${app.package}
