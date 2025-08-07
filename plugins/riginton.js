@@ -129,7 +129,7 @@ ${config.FOOTER}`;
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '',
-                    newsletterName: '> *ᴘᴏᴡᴇʀᴅ ʙʏ  ᴋᴀᴠɪᴅᴜ ʀᴀꜱᴀɴɢᴀ : )*',
+                    newsletterName: '> *ᴘᴏᴡᴇʀᴅ ʙʏ  THARINDU NIRMALA: )*',
                     serverMessageId: 143
                 }
             }
