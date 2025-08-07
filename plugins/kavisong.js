@@ -36,7 +36,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const url = data.url;
 
         let desc = `
-┏「🐉𝐀𝐔𝐃𝐈𝐎🐉」
+┏「 🎼 𝐀𝐔𝐃𝐈𝐎 ✨️」
 ┃ 👨‍💻Owner: ${config.OWNER_NAME}
 ┃ 🤖 Bot Name: ${config.BOT_NAME}
 ┗━━━━━━━━━━━━━━━𖣔𖣔
